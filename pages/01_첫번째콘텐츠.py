@@ -1,5 +1,5 @@
 import streamlit as st
-st.subheader('두번째 컨텐츠')
+st.subheader('첫번째 컨텐츠')
 
 import pandas as pd
 df_score = pd.read_csv('./data.csv')
