@@ -2,7 +2,7 @@ import streamlit as st
 st.subheader('두번째 컨텐츠')
 
 import pandas as pd
-df_score = pd.read_csv('./score.csv')
+df_score = pd.read_csv('./data.csv')
 st.write(df_score)
 
 st.bar_chart(df_score.groupby(by='이름').sum())
